@@ -1,0 +1,43 @@
+div#apppart p {
+
+    font-weight: normal;
+    color: black;
+    background-color: green;
+    font-size: 17px;
+    display: inline-block;
+    width: 20px;
+    border-radius: 3px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+    transition-dely: initial;
+    cursor: pointer;
+    border-radius: 07px;
+
+            }
+
+div#apppart p { font-family: Comic Sans MS;} 
+
+div#apppart p:hover {
+
+    background-color: rgb(176, 196, 222);
+    border: 01px black ridge;
+              
+                 }  
+
+img #siteicon {
+
+	 max-height:50px;
+         max-width:50px;
+         padding:10px;
+
+          }
+
+#h6_color{
+
+  color: black;
+
+  }
