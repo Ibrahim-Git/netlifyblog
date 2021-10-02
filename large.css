@@ -1,0 +1,260 @@
+@media screen and (min-width: 600px) { 
+
+	                             langbar { position: relative; left: 0px; display: inline-block; }
+                   
+                                     }
+
+.container { 
+
+	     padding-right: 5px;
+	     padding-left:  5px;
+	     margin-right: auto;
+             margin-left: auto;
+	       }                        
+
+
+.navbar-brand{ 
+           font: italic bold 35px serif;
+           text-shadow:2px 2px #ff0000;
+       
+             }
+
+.img-responsive {
+
+              position: relative ;
+              width: 100%;
+              height: 500px;
+                }
+
+.row { 
+
+	padding-right: 5px;
+	padding-left:  5px;
+	margin-right: 50px;
+    margin-left: 50px;
+     } 
+
+
+#brand_logo { 
+
+       position: absolute;
+       top: -20px;
+       padding-right: 5px;
+       padding-left:  5px;
+       margin-right: 50px;
+       margin-left: 50px;
+       height: 60px;
+       width: 70px;
+       left: 1295px;
+       
+
+     } 
+
+
+#h1_color { color: rgb(0, 54, 104); }
+
+/* this for img concepteur */
+/* this for img concepteur */
+
+.img-circle {
+
+          border: 2px orange ridge;
+          opacity: 1;
+          transition: .5s ease;
+          backface-visibility: hidden; 
+          cursor:pointer;
+            }      
+
+.middle_1, .middle_2, .middle_3 {
+
+                              transition: .5s ease;
+                              opacity: 0;
+                              position: absolute;
+                              top: 50%;
+                              left: 50%;
+                              transform: translate(-50%, -50%);
+                              -ms-transform: translate(-50%, -50%);
+                              text-align: center;
+                                }
+
+/* #img_container_1, #img_container_2, #img_container_3:hover .img-circle {
+                                 opacity: 0.3;
+                                   } */        
+
+#img_container_1:hover .middle_1 {
+                               opacity: 1;
+                                 }
+
+.text_1, .text_2, .text_3 {
+ 
+                        background-color: rgb(97, 97, 97, 0.6);
+                        height: 115px; 
+                        width: 200px;
+                        color: black;
+                        text-shadow: 2px 2px #ff0000;
+                        font-size: 23px;
+                        padding: 40px 20px;
+                        border-radius: 100%;
+                        font-family: cursive;
+                          } 
+    
+/* end this for img concepteur */
+/* end this for img concepteur */
+
+/*  this for img mind club */
+/*  this for img mind club */
+
+#img_container_2:hover .middle_2 {
+                               opacity: 1;
+                                 }
+
+/* end this for img mind club */
+/* end this for img mind club */
+
+/* this for img bac dz */
+/* this for img bac dz */
+
+#img_container_3:hover .middle_3 {
+                               opacity: 1;
+                                 }
+
+/* end this for img bac dz */
+/* end this for img bac dz */
+
+.img-circle:hover {
+                cursor: pointer;
+                  }          
+
+.col-xs-3 p {
+
+
+        background-color: rgb(229, 229, 229); 
+        height: 200px;
+        text-align: justify;
+        box-shadow: rgba(0, 0, 0, 0.8) 0px 15px 20px ;
+        padding: 15px;
+
+            }
+
+.col-xs-3 p:hover { cursor:pointer; }
+
+#myapps_title {
+               
+              color: orange;
+              background-color: rgb(51, 122, 183);
+                 
+              }
+
+#h3_color{
+
+  color: rgb(0, 54, 104);
+  background-color: rgb(176, 196, 222);
+
+  }            
+
+
+#myCarousel{
+
+        position: relative;
+        padding-left: 330px;
+        background-color: rgb(229, 229, 229); 
+        height: 500px; 
+        width: 1150px;  
+        color: rgb(0, 54, 104);
+
+            }
+
+ #myCarousel h1{
+
+        position: relative;
+        padding-right: 320px;
+        color: #000000;
+
+            } 
+
+#myCarousel p{
+
+        position: relative;
+        padding-right: 320px;
+
+            }                       
+
+.carousel-indicators li {
+
+                     background-color: rgb(108, 23, 32);  
+
+                       }           
+        
+
+div#apppart p {
+
+    font-weight: normal;
+    color: black;
+    background-color: rgb(229, 229, 229);
+    font-size: 17px;
+    display: inline-block;
+    width: 250px;
+    border-radius: 3px;
+    padding: 10px 25px 10px 25px;
+    text-align: center;
+    margin: 0px auto 20px auto;
+    transition-property: background-color;
+    transition-duration: 0.3s;
+    transition-timing-function: cubic-bezier(0.47, 0, 0.75, 0.72);
+    transition-dely: initial;
+    cursor: pointer;
+    border-radius: 07px;
+
+            }
+
+div#apppart p { font-family: Comic Sans MS;} 
+
+div#apppart p:hover {
+
+    background-color: rgb(176, 196, 222);
+    border: 01px black ridge;
+              
+                 }    
+
+footer {
+
+       width:100%;
+       padding:05px; 
+       color: #9b8940;
+
+     
+.fa {
+
+	padding:15px;
+	font-size:30px;
+	color: orange;
+ 
+    }
+
+#phonecnt {
+
+	padding-left: 20px;
+	font-size:25px;
+ 
+    }   
+
+.contactme {
+
+        color: #9b8940;
+        background-color: none;
+
+           }   
+
+img .icon {
+ 
+             position: relative;
+             width:150px;
+             height:120px;
+
+          }
+
+#h6_color{
+
+  color: black;
+
+  }                         
