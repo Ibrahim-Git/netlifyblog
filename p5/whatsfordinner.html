@@ -1,0 +1,95 @@
+<html>
+<head>
+
+<title></title>
+<script language="javascript" type="text/javascript" src="p5.js"></script>
+<script src="p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+<script src="sketch.js"></script>
+
+
+<style type="text/css">
+
+  html, body {
+
+  margin-left: 220px;
+  padding: 30px;
+
+            } 
+
+</style>
+
+</head>
+
+
+
+<body>
+
+
+<script>
+
+
+function setup() {
+    
+createCanvas(400, 400);
+
+// wooden table
+background(186, 145, 20);
+
+// knife
+fill(222, 199, 199);
+ellipse(20, 20, 35, 350);
+ 
+// plate
+fill(199, 206, 222);
+ellipse(200, 200, 350, 350);
+ellipse(200, 200, 300, 300); 
+ 
+// olive
+fill(51, 43, 45);
+ellipse(175, 150, 35, 35);
+ellipse(210, 150, 35, 35);
+ellipse(240, 150, 35, 35);
+ellipse(170, 180, 35, 35);
+ellipse(200, 180, 35, 35);
+ellipse(190, 195, 35, 35);
+
+//bread
+fill(153, 125, 76);
+rect(50, 130, 100, 190,30);
+
+// meat
+fill(133, 90, 52);
+ellipse(230, 100, 145, 55);
+ellipse(220, 60, 145, 55);
+ellipse(220, 80, 145, 55);
+
+//cheese
+fill(230, 228, 225);
+triangle(230, 170, 145,320, 280, 345);
+ 
+//eggs
+fill(255, 255, 255);
+ellipse(310, 220, 100, 175);
+
+fill(230, 117, 18);
+ellipse(310, 220, 75, 75);
+
+//salade
+
+fill(18, 230, 18);
+beginShape();
+curveVertex(12,  101);
+curveVertex(194,  191);
+curveVertex(168,  119);
+curveVertex(121,  117);
+curveVertex(132, 295);
+curveVertex(132, 200);
+endShape();
+
+}
+
+</script>
+
+</body>
+</html>

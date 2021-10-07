@@ -1,0 +1,130 @@
+<html>
+<head>
+
+<title></title>
+<script language="javascript" type="text/javascript" src="p5.js"></script>
+<script src="p5.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
+<script src="sketch.js"></script>
+
+<style type="text/css">
+
+  html, body {
+
+  margin-left: 220px;
+  padding: 30px;
+
+            } 
+
+</style>
+
+
+</head>
+
+
+
+<body>
+
+
+<script>
+
+
+function setup() {
+    
+    createCanvas(400, 300);
+
+  }
+
+var bodyX = 200;
+var bodyY = 220;
+var bodyW = 100;
+var bodyH = bodyW/1.5;
+
+draw = function() {
+    background(207, 254, 255);
+    fill(240, 209, 36);
+    ellipse(bodyX, bodyY, bodyW, 106); // body?
+    ellipse(bodyX, bodyY-70, bodyH, 67); // face?
+    
+    
+    line (bodyX-80, bodyY-90, bodyX-25, bodyY-70);
+    line (bodyX-80, bodyY-80, bodyX-25, bodyY-70);
+    line (bodyX-80, bodyY-70, bodyX-25, bodyY-70);
+    
+    line (bodyX+80, bodyY-95, bodyX+20, bodyY-70);
+    line (bodyX+90, bodyY-85, bodyX+20, bodyY-70);
+    line (bodyX+100, bodyY-75, bodyX+20, bodyY-70);
+    
+    var myMustache = function() { 
+      
+    line (bodyX-90, bodyY-90, bodyX-25, bodyY-70);
+    line (bodyX-90, bodyY-80, bodyX-25, bodyY-70);
+    line (bodyX-80, bodyY-70, bodyX-25, bodyY-70);
+    
+    line (bodyX+70, bodyY-95, bodyX+20, bodyY-70);
+    line (bodyX+80, bodyY-85, bodyX+20, bodyY-70);
+    line (bodyX+80, bodyY-75, bodyX+20, bodyY-70);
+   
+  };
+   
+    
+    
+    
+    
+    
+  fill(31, 133, 181);
+   ellipse(bodyX-15, bodyY-85, bodyY/15, bodyW/15); // eyes
+   ellipse(bodyX+15, bodyY-85, bodyY/15, bodyW/15);
+  
+  
+  var myEyes = function() { 
+      
+   fill(252, 0, 42);
+   ellipse(bodyX-15, bodyY-85, bodyY/15, bodyW/15); // eyes red_func
+   ellipse(bodyX+15, bodyY-85, bodyY/15, bodyW/15);
+   
+  };
+  
+  var myMouth = function() { 
+      
+   fill(255, 10, 43);
+   ellipse(bodyX, bodyY-50, bodyY/05, bodyW/05);// mouth_angry
+   fill(20, 18, 18);
+   rect(bodyX, bodyY-60, bodyY/20, bodyW/15);
+   rect(bodyX-15, bodyY-60, bodyY/20, bodyW/15);
+   
+  };
+   
+   fill(255, 10, 43);
+   ellipse(bodyX, bodyY-50, bodyY/10, bodyW/10);// mouth
+   
+   fill(26, 22, 22);
+   ellipse(bodyX, bodyY-70, bodyY/15, bodyW/10);// nose
+   
+   fill(240, 36, 94);
+   ellipse(bodyX, bodyY+05, bodyY/13, 77); // cravatte
+   
+   fill(26, 22, 22);
+   ellipse(bodyX, bodyY-20, bodyY/25, bodyW/10);// coat buttons
+   ellipse(bodyX, bodyY-05, bodyY/25, bodyW/10);
+   ellipse(bodyX, bodyY+10, bodyY/25, bodyW/10);
+   
+    fill(56, 22, 22);    
+    triangle(bodyX, bodyY-145, bodyX+50, bodyY-95, bodyX-50, bodyY-95);// Hat
+    
+ 
+ 
+ if (mouseIsPressed) {
+     
+  myEyes();
+  myMouth();
+  myMustache();
+                         }
+    
+    
+};
+
+</script>
+
+</body>
+</html>
