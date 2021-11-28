@@ -51,7 +51,8 @@
      } 
 
 
-#h1_color { color: rgb(0, 54, 104); }
+#h1_color { color: rgb(0, 54, 104);
+  font-family: "Audiowide", sans-serif; }
 
 /* this for img concepteur */
 /* this for img concepteur */
