@@ -14,7 +14,10 @@
 
 
 .navbar-brand{ 
-           font: italic bold 35px serif;
+	
+	
+            font-family: "Sofia", sans-serif;
+            font: italic bold 35px serif;
            text-shadow:2px 2px #ff0000;
        
              }
