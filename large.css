@@ -5,7 +5,8 @@
                                      }
 
 header { 
-        position:fixed;      
+        position:fixed;   
+	z-index: 999;
         }
 
 .container { 
