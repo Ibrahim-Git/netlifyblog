@@ -4,6 +4,10 @@
                    
                                      }
 
+header { 
+        position:fixed;      
+        }
+
 .container { 
 
 	     padding-right: 5px;
