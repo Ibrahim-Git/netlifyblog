@@ -3,7 +3,7 @@
 	                             langbar { position: relative; left: 0px; display: inline-block; }
                    
                                      }
-@media (max-width: 1000px) { 
+@media screen and (max-width: 1000px) { 
 
 #brand_logo { 
        position: absolute;
