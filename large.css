@@ -1,6 +1,6 @@
 @media screen and (min-width: 600px) { 
 
-	                             langbar { position: relative; left: 0px; display: inline-block; }
+	                             langbar { position: relative; left: 0px; display: flex; }
                    
                                      }
 @media screen and (max-width: 1023px) { 
