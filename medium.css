@@ -4,7 +4,7 @@ div#apppart p {
     color: black;
     background-color: green;
     font-size: 17px;
-    display: flex;
+    display: inline-block;
     width: 20px;
     border-radius: 3px;
     padding: 10px 25px 10px 25px;
@@ -30,8 +30,8 @@ div#apppart p:hover {
 
 img #siteicon {
 
-	 max-height:50px;
-         max-width:50px;
+	 max-height:30px;
+         max-width:30px;
          padding:10px;
 
           }
