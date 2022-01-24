@@ -4,7 +4,7 @@ div#apppart p {
     color: black;
     background-color: green;
     font-size: 17px;
-    display: inline-block;
+    display: flex;
     width: 20px;
     border-radius: 3px;
     padding: 10px 25px 10px 25px;
